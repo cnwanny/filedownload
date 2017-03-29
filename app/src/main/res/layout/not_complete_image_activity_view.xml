@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/not_complete_title"
+        layout="@layout/title" />
+
+
+    <ListView
+        android:id="@+id/notupload_complete_listview"
+        style="@style/listview_style"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/not_complete_title"
+        android:scrollbars="none" />
+
+    <TextView
+        android:id="@+id/notupload_complete_notdata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="暂无待上传的图片"
+        android:textColor="@color/line_bg_glue1"
+        android:textSize="@dimen/font_size_22"
+        android:visibility="gone" />
+</RelativeLayout>

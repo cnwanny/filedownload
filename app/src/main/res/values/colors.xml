@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- 透明 -->
+    <color name="transparent">#00000000</color>
+    <!-- 白色 -->
+    <color name="white">#FFFFFF</color>
+    <!-- 深黑色 -->
+    <color name="tab_text_normal">#93979A</color>
+    <!-- 蓝色 --> #0074E5
+    <color name="blue">#309ae4</color>
+    <!-- 浅灰色字体 -->
+    <color name="text_guy">#B1B1B1</color>
+    <color name="half_white">#E0E0E0</color>
+    <!-- 透明度100-->
+    <color name="trans_bg1">#10000000</color>
+    <!-- 透明度80 -->
+    <color name="trans_bg2">#80000000</color>
+    <!-- 透明度80 -->
+    <color name="trans_bg3">#50000000</color>
+    <!-- 透明 -->
+    <color name="trans_bg4">#95010101</color>
+
+    <color name="select_type_select">#99CC00</color>
+
+    <color name="trans_bg5">#50FFFFFF</color>
+
+    <color name="white_white">#F0F0F0</color>
+
+    <!-- 白灰色 -->
+    <color name="white_half_black">#BEBEBE</color>
+    <!-- 黑灰色 -->
+    <color name="text_half_black">#595959</color>
+    <!-- 黑色 -->
+    <color name="text_black">#000000</color>
+    <color name="text_youself">#333333</color>
+    <!-- 浅灰色 -->
+    <color name="bg_glue">#F0F0F0</color>
+
+    <color name="blue_half">#9C9C9C</color>
+    <!-- 浅灰色 -->
+    <color name="search_bg">#EBECEE</color>
+    <color name="helf_blue">#800074E5</color>
+    <!-- 浅灰色的背景 -->
+    <color name="line_bg_glue">#D8D8D8</color>
+
+
+    <color name="darkgray">#a9a9a9</color><!--暗灰色 -->
+
+    <color name="line_bg_glue1">#D7D7D7</color>
+    <!-- 红色 -->
+    <color name="red">#FF0000</color>
+
+    <color name="red_1">#CC0000</color>
+    <!--主题颜色-->
+    <color name="top_color">#fd4b4d</color>
+    <color name="image_checked_bg">#66000000</color>
+
+    <color name="slelect_tv">#D0D0D0</color>
+
+    <color name="volice_cancel_color">#933432</color>
+
+    <color name="collect_tv">#F0F0F0</color>
+
+    <!-- 菜单栏 按钮文字颜色 -->
+    <color name="topbar_btn_text_color">#ffffff</color>
+
+    <!-- 返回按钮 字体颜色 -->
+    <color name="back_color_noclick">#ffff</color>
+    <color name="back_color_click">#8fff</color>
+
+    <color name="text_black_guy">#323232</color>
+    <color name="text_white_color">#b9b9b9</color>
+    <color name="gray">#aaaaaa</color>
+    <color name="light_blue">#6593cb</color>
+
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+
+    <color name="alertdialog_line">#c6c6c6</color>
+    <color name="actionsheet_blue">#037BFF</color>
+    <color name="actionsheet_red">#FD4A2E</color>
+    <color name="actionsheet_gray">#8F8F8F</color>
+
+    <color name="submit_nonrmal_color">#999999</color>
+
+    <color name="submit_press_color">#FD4A2E</color>
+
+    <color name="grey_helf">#999999</color>
+    <color name="color_space_studytools_green">#99CC00</color>
+    <color name="color_space_studytools_blue">#1BCE8D</color>
+    <color name="yellow_normal_color">#FFA92E</color>
+    <color name="yellow_pressed_color">#EB873E</color>
+    <color name="listview_item_description_text_color">#808080</color>
+    <color name="title_bg_color">#0075E5</color>
+
+    <color name="share_background_color">#F2F2F2</color>
+</resources>

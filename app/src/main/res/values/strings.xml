@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">公评网</string>
+    <string name="permission_camera">摄像头</string>
+    <string name="permission_storage">文件</string>
+    <string name="permission_accounts">信息</string>
+    <string name="permission_phone">状态</string>
+    <string name="permission_location">定位</string>
+    <string name="permission_audio">录音</string>
+    <string name="takepicture">拍照</string>
+    <string name="albumpicture">从相册选择</string>
+    <string name="sure">提交</string>
+</resources>

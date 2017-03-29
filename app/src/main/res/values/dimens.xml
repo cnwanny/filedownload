@@ -1,0 +1,113 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- 应用边距尺寸 -->
+    <!-- 30 ~ 32px -->
+    <dimen name="big_space">18dp</dimen>
+    <!-- 20 ~ 24px -->
+    <dimen name="middle_space">14dp</dimen>
+    <!-- 14 ~ 18px -->
+    <dimen name="small_space">8dp</dimen>
+    <!-- <14px -->
+    <dimen name="tiny_space">4dp</dimen>
+
+    <!-- 顶部 导航栏标题字体大小 -->
+    <dimen name="topbar_textSize">20sp</dimen>
+    <!-- 顶部 导航栏标题字体大小 -->
+    <dimen name="topbar_right_textSize">18sp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="actionbar_height">48.0dp</dimen>
+
+    <dimen name="button_text_size">14sp</dimen>
+    <dimen name="expand_tab_item_height">45dp</dimen>
+    <dimen name="expand_tab_eara_height">380dp</dimen>
+    <dimen name="head_bar_height">45dp</dimen>
+    <dimen name="info_image_size">64dp</dimen>
+
+    <dimen name="survey_view_bg_color_name_texte_size">18sp</dimen>
+    <dimen name="survey_view_bg_color_des_texte_size">12sp</dimen>
+    <dimen name="margin_0_dp">0dp</dimen>
+    <dimen name="margin_0.5_dp">0.5dp</dimen>
+    <dimen name="margin_1_dp">1dp</dimen>
+    <dimen name="margin_2_dp">2dp</dimen>
+    <dimen name="margin_3_dp">3dp</dimen>
+    <dimen name="margin_4_dp">4dp</dimen>
+    <dimen name="margin_5_dp">5dp</dimen>
+    <dimen name="margin_6_dp">6dp</dimen>
+    <dimen name="margin_7_dp">7dp</dimen>
+    <dimen name="margin_8_dp">8dp</dimen>
+    <dimen name="margin_10_dp">10dp</dimen>
+    <dimen name="margin_11_dp">11dp</dimen>
+    <dimen name="margin_12_dp">12dp</dimen>
+    <dimen name="margin_13_dp">13dp</dimen>
+    <dimen name="margin_14_dp">14dp</dimen>
+    <dimen name="margin_15_dp">15dp</dimen>
+    <dimen name="margin_16_dp">16dp</dimen>
+    <dimen name="margin_17_dp">17dp</dimen>
+    <dimen name="margin_18_dp">18dp</dimen>
+    <dimen name="margin_19_dp">19dp</dimen>
+    <dimen name="margin_20_dp">20dp</dimen>
+    <dimen name="margin_22_dp">22dp</dimen>
+    <dimen name="margin_24_dp">24dp</dimen>
+    <dimen name="margin_26_dp">26dp</dimen>
+    <dimen name="margin_28_dp">28dp</dimen>
+    <dimen name="margin_30_dp">30dp</dimen>
+    <dimen name="margin_32_dp">32dp</dimen>
+    <dimen name="margin_36_dp">36dp</dimen>
+    <dimen name="margin_40_dp">40dp</dimen>
+    <dimen name="margin_42_dp">42dp</dimen>
+    <dimen name="margin_48_dp">48dp</dimen>
+    <dimen name="margin_50_dp">50dp</dimen>
+    <dimen name="margin_56_dp">56dp</dimen>
+    <dimen name="margin_60_dp">60dp</dimen>
+    <dimen name="margin_64_dp">64dp</dimen>
+    <dimen name="margin_68_dp">68dp</dimen>
+    <dimen name="margin_72_dp">72dp</dimen>
+    <dimen name="margin_80_dp">80dp</dimen>
+    <dimen name="margin_86_dp">86dp</dimen>
+    <dimen name="margin_90_dp">90dp</dimen>
+    <dimen name="margin_96_dp">96dp</dimen>
+    <dimen name="margin_100_dp">100dp</dimen>
+
+    <dimen name="margin_102_dp">102dp</dimen>
+    <dimen name="margin_108_dp">108dp</dimen>
+    <dimen name="margin_112_dp">112dp</dimen>
+    <dimen name="margin_120_dp">120dp</dimen>
+    <dimen name="margin_160_dp">160dp</dimen>
+    <dimen name="margin_180_dp">180dp</dimen>
+    <dimen name="margin_200_dp">200dp</dimen>
+    <dimen name="margin_240_dp">240dp</dimen>
+    <dimen name="margin_270_dp">270dp</dimen>
+    <!-- 登陆文字大小 -->
+    <dimen name="login_text_size">20sp</dimen>
+    <dimen name="user_set_listview_text_size">16sp</dimen>
+    <!-- 字体大小 -->
+    <dimen name="font_size_2">2sp</dimen>
+    <dimen name="font_size_3">3sp</dimen>
+    <dimen name="font_size_4">4sp</dimen>
+    <dimen name="font_size_5">5sp</dimen>
+    <dimen name="font_size_6">6sp</dimen>
+    <dimen name="font_size_7">7sp</dimen>
+    <dimen name="font_size_8">8sp</dimen>
+    <dimen name="font_size_10">10sp</dimen>
+    <dimen name="font_size_11">11sp</dimen>
+    <dimen name="font_size_12">12sp</dimen>
+    <dimen name="font_size_13">13sp</dimen>
+    <dimen name="font_size_14">14sp</dimen>
+    <dimen name="font_size_15">15sp</dimen>
+    <dimen name="font_size_16">16sp</dimen>
+    <dimen name="font_size_17">17sp</dimen>
+    <dimen name="font_size_18">18sp</dimen>
+    <dimen name="font_size_19">19sp</dimen>
+    <dimen name="font_size_20">20sp</dimen>
+    <dimen name="font_size_22">22sp</dimen>
+    <dimen name="font_size_24">24sp</dimen>
+    <dimen name="font_size_26">26sp</dimen>
+    <dimen name="font_size_28">28sp</dimen>
+    <dimen name="font_size_30">30sp</dimen>
+    <dimen name="font_size_36">36sp</dimen>
+    <dimen name="font_size_40">40sp</dimen>
+    <dimen name="font_size_75">75sp</dimen>
+    <dimen name="font_size_90">90sp</dimen>
+</resources>

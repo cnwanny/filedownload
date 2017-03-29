@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+    <com.android.hifosystem.hifoevaluatevalue.camera_view.camera.Camera2SurfaceText
+        android:id="@+id/auto_surfaceView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true" />
+
+    <LinearLayout
+        android:id="@+id/auto2_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/trans_bg2"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rl2_column"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_40_dp"
+            android:background="#fff3f3f3">
+
+            <com.android.hifosystem.hifoevaluatevalue.camera_view.ColumnHorizontalScrollView
+                android:id="@+id/mColumnHorizontalScrollView2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_40_dp"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:id="@+id/mRadioGroup_content2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/margin_40_dp"
+                    android:layout_centerVertical="true"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingLeft="@dimen/margin_5_dp"
+                    android:paddingRight="@dimen/margin_5_dp" />
+            </com.android.hifosystem.hifoevaluatevalue.camera_view.ColumnHorizontalScrollView>
+
+            <ImageView
+                android:id="@+id/shade_left2"
+                android:layout_width="@dimen/margin_5_dp"
+                android:layout_height="@dimen/margin_40_dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:background="@mipmap/channel_leftblock"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/shade_right2"
+                android:layout_width="@dimen/margin_5_dp"
+                android:layout_height="@dimen/margin_40_dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@mipmap/channel_rightblock"
+                android:visibility="visible" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/trans_bg2">
+
+            <ImageView
+                android:id="@+id/skan_image2"
+                android:layout_width="@dimen/margin_56_dp"
+                android:layout_height="@dimen/margin_64_dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="@dimen/margin_10_dp"
+                android:scaleType="center"
+                />
+
+            <ImageView
+                android:id="@+id/take_picture_image2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="@dimen/margin_5_dp"
+                android:layout_marginTop="@dimen/margin_5_dp"
+                android:scaleType="center"
+                android:src="@drawable/take_picture_drawable" />
+
+            <TextView
+                android:id="@+id/cancel_takepicture2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/margin_10_dp"
+                android:layout_marginRight="@dimen/margin_10_dp"
+                android:text="完成"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_size_16" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:fitsSystemWindows="true"
+    android:layout_height="match_parent">
+   <include layout="@layout/title"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/image_operate_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@android:color/transparent"
+        android:gravity="center"
+        android:listSelector="@android:color/transparent"
+        android:paddingLeft="@dimen/margin_7_dp"
+        android:paddingStart="@dimen/margin_7_dp"
+        android:paddingTop="@dimen/margin_7_dp"
+        android:scrollbars="none" />
+
+</LinearLayout>

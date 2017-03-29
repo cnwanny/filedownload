@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/splash_relative"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/icon_splash_bg"
+    >
+    <!--  <ImageView
+          android:id="@+id/splash_imageview"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_centerInParent="true"
+          android:contentDescription="@null"
+          android:src="@drawable/app_splash_bg"
+          android:scaleType="fitXY"
+          />-->
+</RelativeLayout>
